@@ -11,5 +11,5 @@
        if(s[i]!='\t'||s[i]!='\0')
     n++;
    }
-    printf("The numbers in sendence : %d",n);
+    printf("The numbers in sentence : %d",n);
     }
