@@ -12,5 +12,5 @@
        if(s[i]=='.')
        n++;
    }
-    printf("The number of lines  : %d",n);
+    printf("The number of lines in the paragraph  : %d",n);
     }
