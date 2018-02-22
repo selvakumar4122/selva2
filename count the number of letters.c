@@ -1,15 +1,15 @@
- #include<stdio.h>
+#include<stdio.h>
  #include<string.h>
  void main()
     {
     char s[20];
-    int n=1,i;
+    int n=0,i;
     printf("enter the string :");
-    scanf("%[\n]s",s);
-    for(i=0;i<20;i++)
+    scanf("%[^\n]s",s);
+    for(i=0;s[i]!='\0';i++)
    {
-       if(s[i]!='\t'||s[i]!='\0')
-    n++;
+       if(s[i]!=' ')
+       n++;
    }
-    printf("The numbers in sentence : %d",n);
+    printf("The words in sendence : %d",n);
     }
