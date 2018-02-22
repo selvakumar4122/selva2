@@ -11,5 +11,5 @@
        if(s[i]==' ')
        n++;
    }
-    printf("The space in sendence : %d",n);
+    printf("The space in sentence : %d",n);
     }
