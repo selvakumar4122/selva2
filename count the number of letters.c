@@ -2,7 +2,7 @@
  #include<string.h>
  void main()
     {
-    char s[20];
+    char s[200];
     int n=0,i;
     printf("enter the string :");
     scanf("%[^\n]s",s);
