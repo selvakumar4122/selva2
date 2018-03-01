@@ -6,8 +6,8 @@ void main()
   scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-     printf("%d \n",c);
      c=a+b;
+     printf("%d \n",c);
      b=a;
      a=c;
     }
