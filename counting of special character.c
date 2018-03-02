@@ -13,7 +13,7 @@ void main()
        else
        n++;
      }
-    printf("The special charactor in sentence : %d",n);
+    printf("The special character in sentence : %d",n);
 }
 
 
