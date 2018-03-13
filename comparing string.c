@@ -1,26 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<string.h>
 void main()
 {
-    char a[20],b[20];
-    int n1,n2;
-    printf("Enter the string :");
-    scanf("%s",a);
-    printf("Enter the string :");
-    scanf("%s",b);
-    n1=strlen(a);
-    n2=strlen(b);
-    if(n1>n2)
-     {
-         printf("%s",a);
-     }
-    else if(n2>n1)
-      {
-          printf("%s",b);
-      }
-    else
-    {
-      printf("%s",a);
-    }
-    
+	char str1[50],str2[50];
+	int n1,n2;
+	printf("enter the string1:");
+	scanf("%s",str1);
+	printf("enter the string2:");
+	scanf("%s",str2);
+	n1=strlen(str1);
+	n2=strlen(str2);
+	if(n1>n2)
+	{
+		printf("\n%s",str1);
+	}
+	else if(n2>n1)
+	{
+		printf("\n%s",str2);
+	}
+	else
+	{
+		printf("\n %s",str2);
+	}
 }
