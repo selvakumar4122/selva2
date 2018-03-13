@@ -3,22 +3,24 @@
 void main()
 {
     char a[20],b[20];
-    int n1=0,n2=0,i,j,c=0;
+    int n1,n2;
     printf("Enter the string :");
-    scanf("%s",&a[20]);
+    scanf("%s",a);
     printf("Enter the string :");
-    scanf("%s",&b[20]);
-    n1=strlen(a[20]);
-    n2=strlen(b[20]);
-    for(i=0;i<n1;i++)
-    for(j=0;j<n2;j++)
-      if(a[i]==b[j])
-      
+    scanf("%s",b);
+    n1=strlen(a);
+    n2=strlen(b);
+    if(n1>n2)
+     {
+         printf("%s",a);
+     }
+    else if(n2>n1)
       {
-        c++;  
-      } 
-    if(c==n1)
-    printf("%s",a);
+          printf("%s",b);
+      }
     else
-    printf("%d%d",a,b);
+    {
+      printf("%s",a);
+    }
+    
 }
