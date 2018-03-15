@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 void main()
 {
@@ -7,7 +8,7 @@ void main()
   scanf("%d",&n);
   printf("Enter the value for array : ");
   for(i=0;i<n;i++)
-  scanf("%d",&a[i]);
+  scanf("%f",&a[i]);
   for(i=0;i<n;i++)
   {
       t=t+a[i];
